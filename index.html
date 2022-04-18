@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>My Personal Portfolio</title>
+        <link href="./resources/style.css" rel="stylesheet">  
+        <a href="./resources/java.js"></a>
+        <link href="https://fonts.googleapis.com/css2?family=Orbitron&family=Press+Start+2P&family=Shadows+Into+Light&family=Source+Code+Pro:wght@500&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <h1>My Personal Portfolio</h1>
+        <nav>
+            <a href="#aboutme">About Me</a>
+            <a href="#projects">Projects</a>
+            <a href="./resources/contact.html" target="_blank">Contact</a> 
+            <!--linkear a secciones-->
+        </nav>
+        <div class="aboutme">
+            <div class="text-over">
+        <h3 id="welcome">Hi! I'm Ana Fernanda Flores </h3>
+        <span>I'm currently working at Codifin and I'm being prepared to be a full-stack
+        engineer. I'm in my gap year before I go to college and study Entertainment Business Administration.
+        I live in Mexico City. I love watching Netflix, dancing, learning other languages and spendinng time
+        with my family. I'm still on the first lessons of Codecademy, however I have made some projects that
+        I will present in this web site. I hope you can see them all and provide any feedback ;). </span>
+        <!--poner backgorund image-->
+        </div>  
+        </div>
+
+        <div class="projects">
+        <h2 id="projects-heading">Projects</h2>
+        <img id="pacman" src="https://community.agriculture.com/t5/image/serverpage/image-id/16551iF34EBB44B8052D79?v=v2">
+           <div class="one">
+            <h3>My first web page</h3>
+            <p>This was my very first website. It is very simple because it was made
+                at the beggining of HTML lessons. I applied what I learned of fundamentals of HTML such as
+            headings, unoredered lists and links. </p>
+            <button onclick="window.location.href='https://anafflores.github.io/myfirstwebpage/'">Click here to visit</button>
+            </div>
+            <div class="two">
+            <h3>CSS Selectors Cheat Sheet</h3>
+            <p>This website is not only a cheat sheet of selectors lesson, but also its an HTML that includes
+            two tables with different information each of them. 
+            </p>
+            <button onclick="window.location.href='https://anafflores.github.io/cheatsheet/'">Click here to visit</button>
+            </div>
+
+            <div class="three">
+            <h3>Website Desing System</h3>
+            <p>This web page is a style guide for a website. The main purpose of this website was to practice
+                styling after the CSS lesson. I used diferent colors, backgrounds, fonts, font sizes, adjusted
+                margins and borders.
+            </p>
+            <button onclick="window.location.href='https://anafflores.github.io/designsystem/'">Click here to visit</button>
+            </div>
+
+            <div class="four">
+            <h3>Tea Cozy</h3>
+            <p>In this project, the platform provided me with the resources I needed to apply to the website and 
+                an example of how the final veision should look like. The main objective was to apply what I had 
+                previously learned about HTML and CSS.
+            </p>
+            <button onclick="window.location.href= 'https://anafflores.github.io/teacoazy/'">Click here to visit</button>
+            </div>
+
+            <div class="five">
+            <h3>Company Home Page</h3>
+            <p>In this project I needed to make a home page for an imaginary company that included a logo, navigation 
+                bar, products (in this case I showed the services the company offered), team members and a contact using
+                HTML and CSS. I think this might have been the biggest challenge I have had until now because I needed to 
+                plan everything about how the website's content design and then make it different elements of CSS.
+            </p>
+            <button onclick="window.location.href='https://anafflores.github.io/Company-Home-Page/'">Click here to visit</button>
+            </div>
+
+    </div>
+    <div>
+        <img id="tetris" src="./resources/imag/tetris.gif">
+    </div>
+    <div class="skills">
+        <h2>Skills:</h2>
+        <ul>
+            <li>HTML</li>
+            <li>CSS</li>
+            <li>JavaScript</li>
+        </ul>
+
+    </div> 
+
+    <div class="feedback">
+        <h3>Thank you so much for checking my Portfolio. I'm still working on improoving my skills.
+            Let me know what you think!
+        </h3>
+    </div>
+    <form action="mywebsite.com" method="POST">
+    <label for="message"></label>
+      <textarea id="message" name="message" rows="20" cols="100" required></textarea>
+        <br>
+      <input type="submit" value="Submit!">
+      </form>
+    </body>
+</html>
