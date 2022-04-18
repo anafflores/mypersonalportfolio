@@ -76,7 +76,7 @@ nav{
 }   
 
 .aboutme{
-    background-image: linear-gradient(rgba(5, 7, 12, 0.55), rgba(5, 7, 12, 0.55)), url("./imag/background.jpg");
+    background-image: linear-gradient(rgba(5, 7, 12, 0.55), rgba(5, 7, 12, 0.55)), url("./resources/imag/background.jpg");
     background-repeat: no-repeat;
     background-position: center;
     height: 700px;
